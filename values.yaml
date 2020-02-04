@@ -21,6 +21,9 @@ podSecurityContext: {}
 
 securityContext: {}
 
+rbac:
+  clusterAdminRole: false
+
 service:
   type: ClusterIP
   port: 443
